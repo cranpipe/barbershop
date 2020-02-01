@@ -1,0 +1,31 @@
+.boton {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.boton__comparte {
+background-color: $nickel;
+padding: 10px;
+text-align: center;
+color: $white;
+border-radius: 10px;
+width: auto;
+
+&:hover {
+    background-color: $rudy-pink;
+    color: $white;
+}
+}
+
+.boton__comenta {
+background-color: $nickel;
+padding: 12px;
+color: $white;
+border-radius: 10px;
+width: auto;
+
+&:hover{
+    background-color: $rudy-pink;
+    color: $white;
+}
+}
